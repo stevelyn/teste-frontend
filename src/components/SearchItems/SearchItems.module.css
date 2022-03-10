@@ -1,0 +1,54 @@
+.item_container {
+  display: flex;
+  background-color: #fff;
+  width: 935px;
+  height: 180px;
+  padding: 16px;
+  gap: 16px;
+  border-radius: 4px;
+}
+
+.thumbnail {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.item_container_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 75%;
+}
+
+.item_container_info section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  align-items: center;
+  width: 90%;
+}
+
+.price_and_shipping {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 68%;
+  width: 66%;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.state_name {
+  font-size: 12px;
+  color: #666;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  font-size: 18px;
+}

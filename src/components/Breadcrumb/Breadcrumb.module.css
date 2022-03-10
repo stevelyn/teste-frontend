@@ -1,0 +1,17 @@
+.breadcrumb {
+  padding: 16px;
+  margin: 0;
+}
+
+.breadcrumb_category {
+  margin-left: 2px;
+  display: inline-block;
+  list-style: none;
+  font-size: 14px;
+  color: #666;
+}
+
+.breadcrumb_category:not(:last-of-type)::after{
+  content: '\203A';
+  margin: 0 8px;
+}
